@@ -4,7 +4,7 @@
 const nuevaString = 'tarea';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 1795;
+const nuevoNum = 1995;
 
 // Crea una variable booleana:
 const nuevoBool = false;
@@ -262,13 +262,13 @@ function esVocal(letra){
   //Escribe tu código aquí
 
 if (letra.length > 1){
-  return "Dato incorrecto"
+  return 'Dato incorrecto';
 }
-if (letra === 'a'|| letra === 'e'|| letra === 'i'|| letra === 'o'|| letra === 'u'){
-  return "Es vocal";
+if (letra == 'a'|| letra == 'e'|| letra == 'i'|| letra == 'o'|| letra == 'u'){
+  return 'Es vocal';
 }
-if (letra !== 'a'|| letra !== 'e'|| letra !== 'i'|| letra !== 'o'|| letra !== 'u'){
-  return "Dato incorrecto";
+if (letra != 'a'|| letra != 'e'|| letra != 'i'|| letra != 'o'|| letra != 'u'){
+  return 'Dato incorrecto';
 }
 }
 
