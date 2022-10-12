@@ -210,6 +210,13 @@ function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
+  solucionMayorACien = [];
+  for (i =0; i < array.length; i++) {
+    if (array[i] > 100) {
+      solucionMayorACien.push(array[i]);
+    }
+  }
+  return solucionMayorACien;
 }
 
 
@@ -221,6 +228,21 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  var count = 0;
+  var sum = 0;
+  solBreakStatement = [];
+  while (count < 11) {
+    numero = numero + 2;
+    count++;
+    solBreakStatement.push(numero);
+    for (i = 0; i < solBreakStatement.length; i++){
+      sum = sum + solBreakStatement[i];
+    }
+    if (sum = count){
+      return "Se interrumpió la ejecución";
+    }
+  }
+  return solBreakStatement;
 }
 
 
