@@ -228,21 +228,19 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
-  var count = 0;
-  var sum = 0;
   solBreakStatement = [];
-  while (count < 11) {
+  for (var i = 0; i < 10; i++) {
     numero = numero + 2;
-    count++;
-    solBreakStatement.push(numero);
-    for (i = 0; i < solBreakStatement.length; i++){
-      sum = sum + solBreakStatement[i];
-    }
-    if (sum = count){
-      return "Se interrumpió la ejecución";
+    if (numero == i) break;
+    else {
+      solBreakStatement.push(numero);
     }
   }
-  return solBreakStatement;
+  if (i < 10) {
+    return "Se interrumpió la ejecución";
+  } else {
+    return solBreakStatement;    
+  }
 }
 
 
