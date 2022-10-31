@@ -4,11 +4,17 @@ function mayuscula(nombre) {
   //La función recibe un nombre y debe devolver el mismo que recibe pero con su primer letra en mayúscula
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
+  String.prototype.mayus = function(){
+    return this.charAt(0).toUpperCase() + this.slice(1);
+  }
+  var nuevoNombre = nombre.mayus();
+  return nuevoNombre;
 }
 
 function invocarCallback(cb) {
   // Invoca al callback `cb`
   //Tu código:
+  cb();
 }
 
 function operacionMatematica(n1, n2, cb) {
