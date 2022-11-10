@@ -1,6 +1,12 @@
 
         h1 {
             color: brown;
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            background-color: blueviolet;
+            display: block;
+        
         }
 
         img {
@@ -17,4 +23,5 @@
         #spanid {
             font-size: 18px;
             margin: 50px;
+            display: inline-flex;
         }
