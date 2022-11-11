@@ -1,11 +1,12 @@
 
         h1 {
             color: brown;
-            position: fixed;
-            top: 0px;
-            right: 0px;
-            background-color: blueviolet;
-        
+            position: relative;
+            display: absolute;
+            background-color: width;
+        }
+        h3{
+            display: flex;
         }
 
         img {
@@ -13,16 +14,16 @@
         }
 
         #thirdDiv {
-            background-color: black;
-            width: 500px;
-            padding: 50px;
-            border: 10px solid sienna;
+            position: flex;
+            display: grid;  
+            place-items: center;
         }
 
         #spanid {
-            font-size: 18px;
-            margin: 50px;
-            display: inline-flex;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            
         }
 .box {
     display: inline-block;
@@ -31,4 +32,18 @@
     height: 100px;
     position: relative;
     top: 100px;
+}
+
+body {
+    background-image: url(https://img.freepik.com/vector-premium/patron-fondo-transparente-cocina_53562-1281.jpg?w=2000);
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.divClass {
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
