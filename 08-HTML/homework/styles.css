@@ -5,7 +5,6 @@
             top: 0px;
             right: 0px;
             background-color: blueviolet;
-            display: block;
         
         }
 
@@ -25,3 +24,11 @@
             margin: 50px;
             display: inline-flex;
         }
+.box {
+    display: inline-block;
+    background: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+}
